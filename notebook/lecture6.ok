@@ -1,0 +1,28 @@
+{
+    "name": "Lecture 6",
+    "endpoint": "ese/ug218/su18/lecture6",
+    "src": [
+        "Lecture-6-Introduction-to-programming-for-geoscientists.ipynb"
+    ],
+    "tests": {
+      "tests/lect6-q0.py": "ok_test",
+      "tests/lect6-q1.py": "ok_test",
+      "tests/lect6-q2.py": "ok_test",
+      "tests/lect6-q3.py": "ok_test",
+      "tests/lect6-q4.py": "ok_test",
+      "tests/lect6-q6.py": "ok_test",
+      "tests/lect6-q7.py": "ok_test",
+      "tests/lect6-q8.py": "ok_test"
+    },
+    "default_tests": [
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "analytics",
+        "lock",
+        "unlock",
+        "grading",
+        "backup"
+    ]
+}
